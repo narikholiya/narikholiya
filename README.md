@@ -25,7 +25,6 @@
 [![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=narikholiya&limit=5&theme=radical&combine_all_yearly_contributions=true)](https://github.com/narikholiya)
 
 ### 📈 My Contribution Activity
-## 🐍 My GitHub Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/narikholiya/narikholiya/main/dist/github-snake.svg" alt="GitHub contribution snake" />
