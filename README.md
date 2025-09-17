@@ -1,4 +1,5 @@
 <h1 align="center">Hi 👋, I'm Narendra Singh Kholiya</h1>
+<div align="center"> <img src="https://raw.githubusercontent.com/narikholiya/narikholiya/main/Narendra(1).png"> </div>
 <h3 align="center">Cloud & DevOps Engineer | Exploring AWS & Automation | Sharing my learning journey on LinkedIn</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=narikholiya&label=Profile%20views&color=0e75b6&style=flat" alt="narikholiya" /> </p>
