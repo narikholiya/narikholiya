@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Narendra Singh Kholiya</h1>
 <div align="center"> <img src="https://raw.githubusercontent.com/narikholiya/narikholiya/main/Narendra-Banner.png"> </div>
 <h3 align="center">Cloud & DevOps Engineer | Exploring AWS & Automation | Sharing my learning journey on LinkedIn https://www.linkedin.com/in/narendra-kholiya/</h3>
-<img align="right"> alt="Coding" width="400" src="https://raw.githubusercontent.com/narikholiya/narikholiya/main/Coding.gif">
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/narikholiya/narikholiya/main/Coding.gif" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=narikholiya&label=Profile%20views&color=0e75b6&style=flat" alt="narikholiya" /> </p>
 
