@@ -1,0 +1,45 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  push:
+    branches: [ main ]         # change if your default branch is 'master'
+  schedule:
+    - cron: '0 2 * * *'        # runs daily at 02:00 UTC (optional)
+  workflow_dispatch: {}        # allows manual runs from the Actions tab
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Generate snake SVG (community action)
+        # This uses a community action (example). Many repos use platane/snk or similar.
+        # If this exact action doesn't work for you, let me know and I will pick a specific one.
+        uses: platane/snk@v3
+        with:
+          github_user_name: narikholiya
+          # output file inside the workspace
+          output: dist/github-contribution-snake.svg
+
+      - name: Copy SVG to repo root
+        run: |
+          mkdir -p dist || true
+          # If generator wrote to dist/, copy it to repo root
+          cp dist/github-contribution-snake.svg github-contribution-snake.svg || true
+
+      - name: Commit and push generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-snake.svg || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update contribution snake [skip ci]" || echo "commit failed"
+            git push
+          else
+            echo "No changes to commit"
+          fi
