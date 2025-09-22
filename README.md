@@ -9,9 +9,9 @@
 
 - 🔭 I’m currently working on building scalable web applications and automating infrastructure.
 
-- 🌱 I’m currently learning **Devops & Cloud**
+- 🌱 I’m currently learning DevOps practices such as CI/CD, containerization, and infrastructure as code.
 
-- 👨‍💻 All of my projects are available at []()
+- 👨‍💻 All of my projects are available at ,where I share hands-on work with AWS services (EC2, S3, RDS, IAM, VPC, Lambda, Cloudfront, Load Balancers, Auto Scaling, EFS) and experiments with Docker, Kubernetes, Jenkins, and Terraform.
 
 - 💬 Ask me about **DevOps,Cloud**
 
